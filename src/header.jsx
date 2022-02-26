@@ -2,6 +2,7 @@ import React from "react"
 import Perfil from "./img/PERFIL.jpg"
 
 
+
 function Header () {
     return (
         <div className='header'>
@@ -9,7 +10,7 @@ function Header () {
     
         
         <a className='navbar-content'>about</a>
-        <a className='navbar-content'>contact me</a>
+        <a className='navbar-content' href="#SocialMedia">contact me</a>
         <a className='navbar-content'>download cv</a>
         
         </div>
