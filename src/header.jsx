@@ -3,6 +3,7 @@ import Perfil from "./img/PERFIL.jpg"
 
 
 
+
 function Header () {
     return (
         <div className='header'>
@@ -11,7 +12,8 @@ function Header () {
         
         <a className='navbar-content'>about</a>
         <a className='navbar-content' href="#SocialMedia">contact me</a>
-        <a className='navbar-content'>download cv</a>
+        <a className='navbar-content' href="https://drive.google.com/drive/folders/1R2n6ZkGEbDSoFZ2HkqOTOzebkVSvhIXx?usp=sharing" target="_blank">download cv</a>
+       
         
         </div>
     
@@ -23,6 +25,7 @@ function Header () {
           <h3 className='skills'>DESIGNER</h3>
           <h3 className='skills'>BLOCKCHAIN</h3>
           <h3 className='skills'>CTO</h3>
+          
         </div>
     </div>
         
