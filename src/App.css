@@ -41,12 +41,13 @@ div.header {
     color: white;
     font-size: 30px;
     margin: 10px;
-    font-weight: 200;
+    font-weight: 400;
     text-decoration: none;
    
   }
   .navbar-content:hover
   {
+    font-weight: 600;
     color:#49ff18;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -140,7 +141,7 @@ div.header {
     margin: 10px;
     color: white;
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 700;
 
   }
   .skills:hover{
@@ -201,7 +202,7 @@ div.header {
  }
 
 
-.FeatureContainer {
+.FeatureContainerWD {
   display: flex;
   flex-direction: row-reverse;
   margin: 20px 0;
@@ -209,7 +210,46 @@ div.header {
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
-  margin: 16px 0;
+  margin: 30px 0;
+  width: 100%;
+}
+.FeatureContainerDESIGNER{
+  display: flex;
+  flex-direction: row;
+
+  
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.FeatureContainerBLOCKCHAIN{
+  display: flex;
+  flex-direction: row-reverse;
+
+  
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.FeatureContainerCTO{
+  display: flex;
+  flex-direction: row;
+
+  
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
 }
 
 .container_image {
