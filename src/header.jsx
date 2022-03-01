@@ -8,16 +8,7 @@ import Emoji from "./img/emoji.png"
 function Header () {
     return (
     <div className='header' id="About">
-      <div className="navbar"> 
-    
-        
-        <a className='navbar-content' href="#About">about</a>
-        <a className='navbar-content' href="#SocialMedia">contact me</a>
-        <a className='navbar-content' href="#Stack">stack</a>
-        <a className='navbar-content' href="https://drive.google.com/drive/folders/1R2n6ZkGEbDSoFZ2HkqOTOzebkVSvhIXx?usp=sharing" target="_blank">download cv</a>
-        
-        
-      </div>
+
     
       <div className='media'>
         <h2 className="Profile-Title">(profile photo here...)</h2> <br /> <img src={Emoji} alt="emoji" className="emojiheader" />

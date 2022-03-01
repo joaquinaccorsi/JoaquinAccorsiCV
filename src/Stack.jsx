@@ -4,10 +4,10 @@ import WebDevPic from "./img/webdeveloper.png";
 import DesignerPic from "./img/diseno-grafico.png"
 import BlockchainPic from "./img/blockchain.png"
 import CTOPic from "./img/chief.png"
+import OTHERPic from "./img/idea.png"
 
 
-
-function Stack () {
+function stack () {
     return (
 
   <>      
@@ -26,6 +26,8 @@ function Stack () {
         <h4 className="Feature-Text">react js</h4>
         <h4 className="Feature-Text">node js</h4>
         <h4 className="Feature-Text">bootstrap</h4>
+        <h4 className="Feature-Text">api's</h4>
+        <h4 className="Feature-Text">seo</h4>
 
         
     </div>
@@ -92,10 +94,35 @@ function Stack () {
         
 
     </div>
+
+
+</div>
+<div className="FeatureContainerOTHERS">
+    
+    <div className="container_image">
+        <h2 className="Feature-Title"><span>BONUS</span> TRACK</h2> <img src={OTHERPic} alt="bonustrack" className="WebDevPic" />
+    </div>
+
+    <div className="container_feature">
+
+
+        <h4 className="Feature-Text">english proficency b1</h4>
+        <h4 className="Feature-Text">bussines vision</h4>
+        <h4 className="Feature-Text">technology lover</h4>
+        <h4 className="Feature-Text">looking for relocation</h4>
+        <h4 className="Feature-Text">committed to work</h4>
+        <h4 className="Feature-Text">self critical</h4>
+        <h4 className="Feature-Text">proactive</h4>
+        
+        
+
+    </div>
+
+
 </div>
 
 </>
 
     );
 }
-export default Stack;
+export default stack;

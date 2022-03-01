@@ -25,12 +25,16 @@ div.header {
   
   div.navbar { 
      grid-area: 1 / 1 / 2 / 7;
+
+  
+     background: linear-gradient(to bottom, rgba(2, 0, 70,0.6) 50%, rgba(2, 0, 71,0.6) 50%);
      
      width: 100%;
      height: 70px; 
      flex-direction: row;
-     margin-top: 20px;
-     position: fixed;
+     margin-top: 0px;
+     position:fixed;
+     padding: 20px 0px;
 
      display: flex;
      flex-wrap: nowrap;
@@ -48,7 +52,7 @@ div.header {
   .navbar-content:hover
   {
     font-weight: 600;
-    color:#49ff18;
+    color:#000000;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
@@ -58,6 +62,41 @@ div.header {
 
 
   }
+
+
+  .navbar2 {
+    background-color: #49ff18;
+    grid-area: 1 / 1 / 2 / 7;
+    width: 210px;
+    height: 100vh;
+    flex-direction: column;
+    margin-left: 0px;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  a.navbar2-content {
+    color: black;
+    font-size: 30px;
+    margin: 0 20px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  a.navbar2-content:hover {
+    font-weight: 600;
+    color: white;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    
+  }
+
 
 
   div.media { 
@@ -205,13 +244,14 @@ div.header {
 .FeatureContainerWD {
   display: flex;
   flex-direction: row-reverse;
-  margin: 20px 0;
+  
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
   margin: 30px 0;
   width: 100%;
+  height: 70vh;
 }
 .FeatureContainerDESIGNER{
   display: flex;
@@ -224,6 +264,7 @@ div.header {
   align-items: center;
   margin: 30px 0;
   width: 100%;
+  height: 70vh;
 }
 
 .FeatureContainerBLOCKCHAIN{
@@ -237,19 +278,34 @@ div.header {
   align-items: center;
   margin: 30px 0;
   width: 100%;
+  height: 70vh;
 }
 
 .FeatureContainerCTO{
+
   display: flex;
   flex-direction: row;
-
-  
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
   margin: 30px 0;
   width: 100%;
+  height: 70vh;
+
+}
+.FeatureContainerOTHERS{
+
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+  height: 70vh;
+
 }
 
 .container_image {
@@ -278,6 +334,7 @@ div.header {
 
 .Feature-Text {
   color: white;
-  font-size: 25px;
+  margin: 15px 0px;
+  font-size: 30px;
   font-weight: 600;
 }
