@@ -21,13 +21,9 @@ function SocialMedia() {
             <a href='mailto:joaquinaccorsi@gmail.com'target="_blank"><img src={IconEmail} className='IconEmail'/></a>
             
         </div>
-
-
-
-
-   );   
-  }
+    );   
+}
   
 
   
-  export default SocialMedia;
+export default SocialMedia;

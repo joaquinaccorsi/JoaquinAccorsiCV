@@ -52,7 +52,7 @@ div.header {
   .navbar-content:hover
   {
     font-weight: 600;
-    color:#000000;
+    color:#49ff18;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
@@ -64,38 +64,7 @@ div.header {
   }
 
 
-  .navbar2 {
-    background-color: #49ff18;
-    grid-area: 1 / 1 / 2 / 7;
-    width: 210px;
-    height: 100vh;
-    flex-direction: column;
-    margin-left: 0px;
-    position: fixed;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;
-  }
-  a.navbar2-content {
-    color: black;
-    font-size: 30px;
-    margin: 0 20px;
-    font-weight: 400;
-    text-decoration: none;
-    text-align: center;
-  }
 
-  a.navbar2-content:hover {
-    font-weight: 600;
-    color: white;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    
-  }
 
 
 
@@ -338,3 +307,64 @@ div.header {
   font-size: 30px;
   font-weight: 600;
 }
+.Formation-Section {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-color: transparent;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.Section-Title {
+  font-weight: 500;
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+}
+
+.accordion__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.accordion__header {
+  /* Center the content horizontally */
+  align-items: center;
+  display: flex;
+
+  cursor: pointer;
+  padding: 16px;
+}
+
+.Formation-Title {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.accordion__toggle {
+  margin-right: 12px;
+}
+
+.accordion__title {
+  /* Take remaining width */
+  flex: 1;
+}
+
+.accordion__content {
+  /* For not selected item */
+  display: none;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 16px;
+}
+
+.accordion__content--selected {
+  /* For selected item */
+  display: block;
+}
+

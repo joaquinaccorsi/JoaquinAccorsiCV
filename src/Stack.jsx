@@ -11,7 +11,11 @@ function stack () {
     return (
 
   <>      
+
+<h2 className="Section-Title">stack</h2>
 <div className="FeatureContainerWD" id="Stack">
+
+   
 
     
 
